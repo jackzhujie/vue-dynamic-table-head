@@ -3,13 +3,13 @@ node_modules
 /dist
 
 /lib
-/src
-/packages
-/public
-vue.config.js
-babel.config.js
-*.map
-*.html
+#/src
+#/packages
+#/public
+#vue.config.js
+#babel.config.js
+#*.map
+#*.html
 
 
 
