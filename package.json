@@ -1,14 +1,21 @@
 {
-  "name": "vue-dynamic-table",
+  "name": "vue-dynamic-table-head",
   "version": "0.1.0",
+  "description": "A dynamic table implemented by Vue",
   "private": true,
+  "main": "lib/vue-dynamic-table-head.umd.min.js",
+  "keywords": ["vue", "dynamic table", "custom table", "动态表格", "自定义表格", "动态表头"],
+  "author": "zhujie",
+  "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name vue-dynamic-table-head --dest lib src/packages/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "element-ui": "^2.15.1",
     "register-service-worker": "^1.7.1",
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
@@ -23,6 +30,7 @@
     "@vue/cli-plugin-typescript": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "@vue/eslint-config-typescript": "^7.0.0",
+    "babel-plugin-component": "^1.1.1",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
     "sass": "^1.26.5",
